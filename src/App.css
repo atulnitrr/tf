@@ -52,12 +52,11 @@
   font-weight: bold;
   font-size: 19px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 
 .l-navlinks-item {
   display: flex;
-
   align-items: center;
 }
 
@@ -66,13 +65,31 @@
   padding-left: 10px;
 }
 
-.l-navlinks button:hover,
 .l-navlinks div:hover {
   background-color: gray;
   border: none;
   border-radius: 10px;
   color: rgb(29, 161, 242);
   background-color: rgba(29, 161, 242, 0.2);
+  transform: scale(1.1);
+}
+
+.ln-tweet-btn {
+  background-color: rgba(29, 161, 242, 1);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 1s;
+}
+
+.ln-tweet-btn:hover {
+  background-color: rgba(29, 161, 253, 1);
+  transform: scale(1.1);
+  /* color: #000; */
+}
+
+.ln-tweet-btn:hover {
+  background-color: rgba(29, 161, 242);
 }
 
 .user-profile-link {

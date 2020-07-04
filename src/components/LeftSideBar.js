@@ -33,7 +33,7 @@ function LeftSideBar() {
             <i class="far fa-star"></i>
             <p>More</p>
           </div>
-          <button>Tweet</button>
+          <button className="ln-tweet-btn">Tweet</button>
         </div>
         <div className="user-profile-link">user profile lihnks</div>
       </div>
