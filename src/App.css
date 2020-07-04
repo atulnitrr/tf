@@ -52,11 +52,119 @@
   font-weight: bold;
   font-size: 19px;
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.l-navlinks-item {
+  display: flex;
+
+  align-items: center;
+}
+
+.l-navlinks-item > p {
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .l-navlinks button:hover,
 .l-navlinks div:hover {
   background-color: gray;
+  border: none;
+  border-radius: 10px;
+  color: rgb(29, 161, 242);
+  background-color: rgba(29, 161, 242, 0.2);
 }
 
-/* left  side bar */
+.user-profile-link {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+/* left  side bar ends here*/
+
+/*main continer*/
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  height: 53px;
+}
+
+.home-header > * {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px 10px;
+}
+
+.right-star {
+  color: rgb(29, 161, 242);
+  transition: all 1s;
+}
+
+.right-star:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  border-radius: 50%;
+}
+
+/*Tweet container*/
+.tweet-container {
+  display: flex;
+  justify-content: space-between;
+  /* height: 59px; */
+  padding: 0 0 0 10px;
+  font-size: 19px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 0 0 rgba(230, 236, 240, 1);
+}
+
+.user-icon {
+  flex: 1 1 0;
+  width: 100%;
+  font-size: 50px;
+  height: 100%;
+  padding-top: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.tweet-area {
+  flex: 9 1 0;
+}
+
+.tweet-form {
+  font-size: 34px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+.tweet-form > textarea {
+  padding: 5px 10px 0 5px;
+  font-size: 22px;
+  outline: none;
+
+  border: 0.1px solid #000;
+  border: none;
+  border-bottom: none;
+}
+
+.tweet-form > button {
+  font-size: 22px;
+  padding: 10px 0;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(29, 161, 242);
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  border: none;
+}
+/*Tweet container*/
+
+/*main continer ends here*/
