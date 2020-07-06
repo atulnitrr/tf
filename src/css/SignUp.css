@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sup-top-container {
+  margin: 150px auto;
+}
+
+.sup-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sup-wrapper h4 {
+  padding: 20px 0;
+  margin-bottom: 30px;
+  background-color: seagreen;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #fff;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper > * {
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px 12px;
+}
+
+.form-wrapper > input {
+  padding: 10px;
+  font-size: 22px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.form-wrapper > button {
+  border-radius: 20px;
+  padding: 10px 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: seagreen;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.al-mem {
+  margin: 50px 0 10px 0;
+  font-size: 22px;
+}
+
+.su-login {
+  font-size: 22px;
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.su-login a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
