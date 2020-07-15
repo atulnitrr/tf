@@ -3,7 +3,7 @@ import React from "react";
 function TweetContainer() {
   return (
     <div className="tweet-container">
-      <i class="fas fa-user-circle user-icon"></i>
+      <i className="fas fa-user-circle user-icon"></i>
       <div className="tweet-area">
         <form className="tweet-form">
           <textarea

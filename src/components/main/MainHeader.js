@@ -4,7 +4,7 @@ function MainHeader() {
   return (
     <header className="home-header">
       <h3>Home</h3>
-      <i class="far fa-star right-star"></i>
+      <i className="far fa-star right-star"></i>
     </header>
   );
 }
